@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .isian {
+            @apply bg-white
+          }
+        }
+    </style>
+</head>
+<body class="bg-[url('./assets/bg_regis.jpg')] bg-no-repeat bg-cover" >
+    <form action="" class="flex justify-center mt-28" >
+        
+        
+        <div class="flex flex-col text-center w-[20rem] gap-4 bg-[#5a162e] p-10 w-[25rem] h-[30rem] rounded-lg">
+            <h1 class="font-bold text-4xl pb-10 text-white">Register!</h1>
+                <input class="isian h-10 rounded-xl outline-0 text-center" type="text" name="" id="" placeholder="Masukkan Username">
+                <input class="isian h-10 rounded-xl outline-0 text-center" type="text" name="" id="" placeholder="Masukkan Email">
+                <input class="isian h-10 rounded-xl outline-0 text-center" type="password" name="" id="" placeholder="Masukkan Password">
+                <input class="isian h-10 rounded-xl outline-0 text-center" type="password" name="" id="" placeholder="Masukkan Re-Password">
+                <button class="bg-[#ee4238] rounded-full font-bold text-white h-10 mt-5 hover:bg-[#f47e4c]">Daftar</button>
+                <p>Sudah Memiliki Akun? <a class="underline underline-offside-2 text-white" href="">Login Disini</a></p>
+        </div>
+    </form>
+    
+</body>
+</html>
